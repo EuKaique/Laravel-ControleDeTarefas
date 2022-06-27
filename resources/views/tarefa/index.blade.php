@@ -8,7 +8,7 @@
                 <div class="card-header">Tarefas
                     <a href="{{ route('tarefa.exportar', ['extensao' => 'xlsx']) }}" class="float-right mr-4">XLSX</a>
                     <a href="{{ route('tarefa.exportar', ['extensao' => 'csv']) }}" class="float-right mr-4">CSV</a>
-                    <a href="{{ route('tarefa.exportacao') }}" class="float-right mr-4">PDF V2</a>
+                    <a href="{{ route('tarefa.exportacao') }}" class="float-right mr-4" target="_blank">PDF V2</a>
                     <a href="{{ route('tarefa.exportar', ['extensao' => 'pdf']) }}" class="float-right mr-4">PDF</a>
                     <a href="{{ route('tarefa.create') }}" class="float-right mr-4">Novo</a>
                 </div>
